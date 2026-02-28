@@ -1,0 +1,308 @@
+/* ============================================
+   STORY-FIRST SCHOOL — Design System
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+  --navy:      #1C2B4A;
+  --navy-mid:  #2E4272;
+  --blue:      #2E5496;
+  --gold:      #C9A84C;
+  --gold-lt:   #E8C96A;
+  --off-white: #F5F7FA;
+  --cream:     #FAF8F4;
+  --gray:      #6B7A99;
+  --gray-lt:   #DDE4EE;
+  --dark:      #0F1824;
+  --white:     #FFFFFF;
+
+  /* Story function colors */
+  --fn-ideation:    #1C4E80;
+  --fn-performance: #2E5496;
+  --fn-managing:    #0D6B52;
+  --fn-vision:      #6B3FA0;
+  --fn-sound:       #A04A1C;
+  --fn-history:     #7A1C3C;
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'Source Sans 3', 'Source Sans Pro', system-ui, sans-serif;
+
+  /* Spacing */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --max-width-narrow: 800px;
+  --max-width-wide: 1400px;
+}
+
+/* ============================================
+   Reset & Base
+   ============================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--navy);
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h1 { font-size: clamp(2.25rem, 5vw, 3.5rem); letter-spacing: 0.01em; }
+h2 { font-size: clamp(1.75rem, 3.5vw, 2.5rem); font-weight: 500; }
+h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); font-weight: 500; }
+h4 { font-size: 1.25rem; font-weight: 500; }
+
+p {
+  margin-bottom: 1.25em;
+  font-size: 1.0625rem;
+  color: var(--gray);
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--gold);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.container--narrow {
+  max-width: var(--max-width-narrow);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.container--wide {
+  max-width: var(--max-width-wide);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* Eyebrow label */
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  margin-bottom: var(--space-md);
+  display: block;
+}
+
+.eyebrow--light {
+  color: var(--gold-lt);
+}
+
+/* Gold horizontal rule */
+.gold-rule {
+  border: none;
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.4;
+  margin: var(--space-2xl) 0;
+}
+
+/* Pull quote */
+.pull-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+  line-height: 1.5;
+  border-left: 4px solid var(--gold);
+  padding-left: var(--space-lg);
+  margin: var(--space-xl) 0;
+  color: var(--navy);
+}
+
+.pull-quote--light {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Section backgrounds */
+.section {
+  padding: var(--space-3xl) 0;
+}
+
+.section--navy {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.section--navy p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.section--dark {
+  background: var(--dark);
+  color: var(--white);
+}
+
+.section--dark p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.section--cream {
+  background: var(--cream);
+}
+
+.section--off-white {
+  background: var(--off-white);
+}
+
+/* Film grain texture overlay for dark sections */
+.section--navy::before,
+.section--dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+.section--navy,
+.section--dark {
+  position: relative;
+}
+
+.section--navy > *,
+.section--dark > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn--primary {
+  background: var(--gold);
+  color: var(--dark);
+}
+
+.btn--primary:hover {
+  background: var(--gold-lt);
+  color: var(--dark);
+}
+
+.btn--secondary {
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+}
+
+.btn--secondary:hover {
+  background: rgba(201, 168, 76, 0.1);
+  color: var(--gold-lt);
+  border-color: var(--gold-lt);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn--ghost:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* Function badge */
+.fn-badge {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2px;
+  color: var(--white);
+}
+
+/* Two-column layout */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: var(--space-2xl) 0;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.625rem; }
+}
+
+/* Scroll indicator */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
