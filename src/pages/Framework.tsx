@@ -39,7 +39,7 @@ export default function Framework() {
             {STORY_FUNCTIONS.map((fn, i) => {
               const isExpanded = expandedFn === fn.id;
               const disciplines = DISCIPLINES.filter(d =>
-                d.primaryFunction === fn.name
+                d.primaryFunction === fn.name || d.primaryFunction.includes(fn.name)
               );
               return (
                 <ScrollReveal key={fn.id} delay={i * 0.08}>
@@ -121,6 +121,9 @@ export default function Framework() {
             <p>
               Functions don't replace departments. They give departments a shared language and a shared obligation: every course, assignment, and critique can be evaluated against the question "what does this do for story?"
             </p>
+            <p>
+              The framework also extends beyond traditional narrative film. Documentary, animation, podcasts, interactive media &mdash; every narrative form the school cultivates is governed by the same six functions. A podcast is an act of sonic storytelling with a structure, an audience contract, and an ethical obligation. It belongs in this framework as naturally as a feature film does.
+            </p>
           </ScrollReveal>
         </div>
       </section>
@@ -164,9 +167,12 @@ export default function Framework() {
                         {d.name}
                       </td>
                       {STORY_FUNCTIONS.map(fn => {
-                        const isPrimary = d.primaryFunction === fn.name;
-                        const isSecondary = d.intersections.toLowerCase().includes(fn.id) ||
-                          d.intersections.toLowerCase().includes(fn.name.toLowerCase());
+                        const isPrimary = d.primaryFunction === fn.name ||
+                          d.primaryFunction.includes(fn.name);
+                        const isSecondary = !isPrimary && (
+                          d.intersections.toLowerCase().includes(fn.id) ||
+                          d.intersections.toLowerCase().includes(fn.name.toLowerCase())
+                        );
                         return (
                           <td key={fn.id} style={{
                             textAlign: 'center',

@@ -27,13 +27,13 @@ export default function Home() {
             <p style={{
               fontFamily: 'var(--font-display)',
               fontStyle: 'italic',
-              fontSize: '1.375rem',
+              fontSize: '1.65rem',
               lineHeight: 1.6,
               maxWidth: '38em',
               margin: '0 auto 3rem',
               opacity: 0.9,
             }}>
-              A case for reimagining film education around what has always mattered most.
+              A case for reimagining our UNCSA School of Filmmaking education around what has always mattered most.
             </p>
             <div style={{ marginTop: '2rem', animation: 'bounce 2s infinite' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.6 }}>

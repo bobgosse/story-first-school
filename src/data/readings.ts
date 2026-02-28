@@ -22,6 +22,7 @@ export const READING_SPINE: ReadingYear[] = [
       { title: 'On Directing Film', author: 'David Mamet', functions: ['performance', 'ideation'], rationale: 'A ruthlessly practical argument for visual storytelling through shot selection — story told through images, not dialogue.' },
       { title: 'Ways of Seeing', author: 'John Berger', functions: ['history', 'vision'], rationale: 'How images carry ideology: the foundational text for understanding that visual choices are never neutral.' },
       { title: 'The Hero with a Thousand Faces', author: 'Joseph Campbell', functions: ['ideation', 'history'], rationale: 'The mythological structures that recur across cultures — not as formula, but as evidence that story is a fundamental human technology.' },
+      { title: 'Amusing Ourselves to Death: Public Discourse in the Age of Show Business', author: 'Neil Postman', functions: ['history', 'ideation'], rationale: 'Postman\'s argument that the medium shapes the message — that television restructured public thought around entertainment rather than reason — is foundational for filmmakers who need to understand what screen storytelling does to audiences beyond what they intend. Essential media literacy and a direct ancestor of the Jevons argument about content abundance.' },
     ],
   },
   {
@@ -58,6 +59,7 @@ export const READING_SPINE: ReadingYear[] = [
       { title: 'Weapons of Math Destruction', author: 'Cathy O\'Neil', functions: ['history', 'managing'], rationale: 'How algorithmic systems encode bias and shape outcomes — essential context for understanding AI\'s role in content creation and distribution.' },
       { title: 'The Death and Life of Great American Cities', author: 'Jane Jacobs', functions: ['history', 'ideation'], rationale: 'Not about film, but about how complex systems self-organize — a masterwork in seeing how environments shape human behavior, applicable to both production design and institutional design.' },
       { title: 'Camera Lucida', author: 'Roland Barthes', functions: ['history', 'vision'], rationale: 'The most personal and philosophical text on what images do to us — the punctum, the wound, the irreducible emotional power of the photographic image.' },
+      { title: 'Nexus: A Brief History of Information Networks from the Stone Age to AI', author: 'Yuval Noah Harari', functions: ['history', 'managing', 'ideation'], rationale: 'Harari\'s examination of how information networks reshape society — culminating in AI — gives graduating students the broadest possible frame for understanding the world their work enters. Connects directly to the Jevons/Baumol economic argument and the ethical responsibilities of storytellers operating in a networked information environment.' },
     ],
   },
 ];

@@ -47,7 +47,7 @@ export default function Reading() {
               margin: '0 auto',
               opacity: 0.9,
             }}>
-              Twenty-four books across four years &mdash; not a syllabus, but a shared intellectual foundation for every student in the school.
+              Here are examples of the books, essays, and films that could anchor a story-first curriculum &mdash; a starting point for faculty and students to build from, not a fixed canon.
             </p>
           </ScrollReveal>
         </div>
