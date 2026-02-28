@@ -34,6 +34,7 @@ export function Footer() {
           <Link to="/framework" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Framework</Link>
           <Link to="/disciplines" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Disciplines</Link>
           <Link to="/reading" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Reading Spine</Link>
+          <Link to="/practicums" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Practicums</Link>
           <Link to="/faq" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>FAQ</Link>
         </div>
       </div>

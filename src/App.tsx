@@ -7,6 +7,7 @@ import Framework from './pages/Framework';
 import Disciplines from './pages/Disciplines';
 import DisciplinePage from './pages/DisciplinePage';
 import Reading from './pages/Reading';
+import Practicums from './pages/Practicums';
 import FAQ from './pages/FAQ';
 
 function PageWrapper({ children }: { children: React.ReactNode }) {
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="/disciplines" element={<PageWrapper><Disciplines /></PageWrapper>} />
             <Route path="/disciplines/:slug" element={<PageWrapper><DisciplinePage /></PageWrapper>} />
             <Route path="/reading" element={<PageWrapper><Reading /></PageWrapper>} />
+            <Route path="/practicums" element={<PageWrapper><Practicums /></PageWrapper>} />
             <Route path="/faq" element={<PageWrapper><FAQ /></PageWrapper>} />
           </Routes>
         </AnimatePresence>

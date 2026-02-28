@@ -22,6 +22,7 @@ export function Nav() {
     { to: '/framework', label: 'Framework' },
     { to: '/disciplines', label: 'Disciplines' },
     { to: '/reading', label: 'Reading Spine' },
+    { to: '/practicums', label: 'Practicums' },
     { to: '/faq', label: 'FAQ' },
   ];
 
