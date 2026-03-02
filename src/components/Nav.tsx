@@ -20,7 +20,9 @@ export function Nav() {
   const links = [
     { to: '/', label: 'The Argument' },
     { to: '/framework', label: 'Framework' },
+    { to: '/voice', label: 'Voice & Critique' },
     { to: '/disciplines', label: 'Disciplines' },
+    { to: '/what-changes', label: 'What Changes' },
     { to: '/reading', label: 'Reading Spine' },
     { to: '/practicums', label: 'Practicums' },
     { to: '/faq', label: 'FAQ' },

@@ -32,7 +32,9 @@ export function Footer() {
         <div style={{ display: 'flex', gap: 'var(--space-xl)', flexWrap: 'wrap' }}>
           <Link to="/" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>The Argument</Link>
           <Link to="/framework" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Framework</Link>
+          <Link to="/voice" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Voice & Critique</Link>
           <Link to="/disciplines" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Disciplines</Link>
+          <Link to="/what-changes" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>What Changes</Link>
           <Link to="/reading" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Reading Spine</Link>
           <Link to="/practicums" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>Practicums</Link>
           <Link to="/faq" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>FAQ</Link>
