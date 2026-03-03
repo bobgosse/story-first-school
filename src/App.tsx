@@ -11,6 +11,7 @@ import Practicums from './pages/Practicums';
 import Voice from './pages/Voice';
 import WhatChanges from './pages/WhatChanges';
 import FAQ from './pages/FAQ';
+import HowWeGotHere from './pages/HowWeGotHere';
 
 function PageWrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -35,6 +36,7 @@ export default function App() {
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
+            <Route path="/how-we-got-here" element={<PageWrapper><HowWeGotHere /></PageWrapper>} />
             <Route path="/framework" element={<PageWrapper><Framework /></PageWrapper>} />
             <Route path="/voice" element={<PageWrapper><Voice /></PageWrapper>} />
             <Route path="/disciplines" element={<PageWrapper><Disciplines /></PageWrapper>} />

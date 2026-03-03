@@ -67,8 +67,51 @@ export default function Home() {
         </div>
       </section>
 
+      {/* TWO PRESSURES — bridge section */}
+      <section
+        className="section"
+        style={{
+          padding: 'var(--space-2xl) 0',
+          borderTop: '1px solid var(--gold)',
+          borderBottom: '1px solid var(--gold)',
+          background: 'var(--off-white)',
+        }}
+      >
+        <div className="container--narrow">
+          <ScrollReveal>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>THE CONTEXT</p>
+            <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', marginBottom: 'var(--space-lg)' }}>
+              Two Pressures. One Response.
+            </h2>
+            <p>
+              The story-first proposal emerges from two simultaneous pressures.
+            </p>
+            <p>
+              The first is internal: a school whose collaborative production model was stretched beyond what its infrastructure could support, producing discipline imbalance, student burnout, and productions where shared story intention was the first casualty.
+            </p>
+            <p>
+              The second is external: an industry reshaped by AI, streaming economics, and content abundance &mdash; where the scarce resource is no longer the ability to produce, but the judgment to make something worth watching.
+            </p>
+            <p>
+              Story-first is the structural response to both. Not a philosophical preference. A necessary and specific answer to the situation this school is actually in.
+            </p>
+            <div style={{ marginTop: 'var(--space-lg)' }}>
+              <Link to="/how-we-got-here" style={{
+                fontWeight: 600,
+                color: 'var(--gold)',
+                textDecoration: 'none',
+                fontSize: '1.0625rem',
+                transition: 'color 0.2s ease',
+              }}>
+                Understand how we got here &rarr;
+              </Link>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* JEVONS PARADOX */}
-      <section className="section section--off-white">
+      <section id="jevons-section" className="section section--off-white">
         <div className="container--narrow">
           <ScrollReveal>
             <p className="eyebrow">THE FIRST FORCE</p>
