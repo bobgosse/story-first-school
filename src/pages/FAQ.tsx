@@ -17,6 +17,18 @@ const FAQ_DATA: FAQItem[] = [
     ],
   },
   {
+    question: "Why should my discipline carry responsibility for story? That\u2019s what Screenwriting is for.",
+    answer: [
+      'For example, when a cinematographer believes story is Screenwriting\u2019s job, what happens on a practicum set? The director wants fifteen coverage setups because they don\u2019t trust themselves. The schedule is collapsing. The producing student is in crisis. In that moment, the cinematographer who understands the story \u2014 who knows what the scene needs to do for the audience, what has already been earned, what actually needs to be in the room \u2014 can intervene. "We have what we need. Here\u2019s what we\u2019re protecting. Let\u2019s move." The cinematographer who believes story is someone else\u2019s job just shoots the list.',
+      'That is not a philosophy difference. That is a description of what happens on practicum films when the shared story intention was never built.',
+      'Story-first does not ask every discipline to teach what Screenwriting teaches. It asks every discipline to teach their craft in relation to what the story requires of it. Those are different things.',
+      'A cinematographer does not need to write a script. But they need to be able to read one \u2014 to understand why a scene exists, what it needs to accomplish for an audience, and how their visual choices serve or undermine that. A production designer does not need to understand three-act structure as an academic exercise. But when the budget forces a choice, they need to know which elements are load-bearing for the story and which are expendable. An editor does not need to understand character arc theory. But they need to feel where the emotional truth of a scene has been captured and where it hasn\u2019t.',
+      'None of that is Screenwriting\u2019s job. It is every discipline\u2019s job. It is, in fact, the job. The craft exists in service of it.',
+      'The question story-first asks of every program is not "do you teach story?" It is: do your students understand how their craft serves the audience\u2019s experience of the story? If the answer is yes, the framework fits what you already do. If the answer is no \u2014 or if no one has ever asked the question before \u2014 that is the gap the rebuild addresses.',
+      'Story is not owned by Screenwriting. Story is the shared purpose every discipline serves. That is not a new idea. It is what this school was built to do. Story-first just makes it explicit, aligns the curriculum around it, and gives everyone a common language for the conversation that needs to happen on every set.',
+    ],
+  },
+  {
     question: "Does 'story-first' mean my discipline gets flattened into a service role?",
     answer: [
       'No. The opposite. "Story-first" means every discipline gains a clearer, more defensible account of its own value. When a cinematography course can articulate exactly what its visual training does for story \u2014 not just "makes pretty images" but "builds the visual judgment to guide audience attention and create emotional states" \u2014 that discipline becomes harder to cut, harder to outsource, and harder to replace with a tool.',
