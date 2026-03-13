@@ -20,6 +20,7 @@ export function Nav() {
   const links = [
     { to: '/', label: 'The Argument' },
     { to: '/how-we-got-here', label: 'How We Got Here' },
+    { to: '/how-it-works', label: 'How It Works' },
     { to: '/framework', label: 'Framework' },
     { to: '/voice', label: 'Voice & Critique' },
     { to: '/disciplines', label: 'Disciplines' },

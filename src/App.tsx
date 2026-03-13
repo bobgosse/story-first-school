@@ -12,6 +12,7 @@ import Voice from './pages/Voice';
 import WhatChanges from './pages/WhatChanges';
 import FAQ from './pages/FAQ';
 import HowWeGotHere from './pages/HowWeGotHere';
+import HowItWorks from './pages/HowItWorks';
 
 function PageWrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -37,6 +38,7 @@ export default function App() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
             <Route path="/how-we-got-here" element={<PageWrapper><HowWeGotHere /></PageWrapper>} />
+            <Route path="/how-it-works" element={<PageWrapper><HowItWorks /></PageWrapper>} />
             <Route path="/framework" element={<PageWrapper><Framework /></PageWrapper>} />
             <Route path="/voice" element={<PageWrapper><Voice /></PageWrapper>} />
             <Route path="/disciplines" element={<PageWrapper><Disciplines /></PageWrapper>} />
