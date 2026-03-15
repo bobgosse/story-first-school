@@ -325,56 +325,71 @@ img {
     font-size: 1.25rem;
     text-align: center;
     padding: 4rem 2rem;
-    color: var(--navy);
+    color: #1C2B4A;
   }
+}
 
-  /* Print view styles */
-  body.print-authorized .no-print {
-    display: none !important;
-  }
-  body.print-authorized .print-only-header {
-    display: block !important;
-  }
-  body.print-authorized nav,
-  body.print-authorized footer {
-    display: none !important;
-  }
-  body.print-authorized .print-section {
-    page-break-after: always;
-  }
-  body.print-authorized .print-section:last-child {
-    page-break-after: avoid;
-  }
+/* Print-view: nuclear overrides — force everything visible and readable */
+.print-view * {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
 
-  /* Force all content visible in print (ScrollReveal sets opacity:0) */
-  body.print-authorized * {
+@media print {
+  .print-view,
+  .print-view *,
+  .print-view *::before,
+  .print-view *::after {
     opacity: 1 !important;
+    visibility: visible !important;
     transform: none !important;
     animation: none !important;
     transition: none !important;
+    color: #1C2B4A !important;
+    background: transparent !important;
+    -webkit-text-fill-color: #1C2B4A !important;
   }
 
-  /* Make dark sections readable in print */
-  body.print-authorized .section--navy,
-  body.print-authorized .section--dark {
-    background: #fff !important;
-    color: #1C2B4A !important;
-  }
-  body.print-authorized .section--navy *,
-  body.print-authorized .section--dark * {
-    color: #1C2B4A !important;
-  }
-  body.print-authorized .section--navy h1,
-  body.print-authorized .section--navy h2,
-  body.print-authorized .section--dark h1,
-  body.print-authorized .section--dark h2 {
-    color: #1C2B4A !important;
-  }
-  body.print-authorized .print-view {
+  .print-view {
     background: #fff !important;
   }
-  body.print-authorized .section {
+
+  /* Hide nav, footer, and print bar */
+  .print-view .no-print,
+  nav, footer {
+    display: none !important;
+  }
+
+  .print-view .print-only-header {
+    display: block !important;
+  }
+
+  /* Make sections compact for print */
+  .print-view .section,
+  .print-view [class*="section--"] {
     min-height: auto !important;
-    padding: 2rem 0 !important;
+    padding: 1.5rem 0 !important;
+    background: transparent !important;
+  }
+
+  /* Gold accents stay gold */
+  .print-view .pull-quote,
+  .print-view .pull-quote * {
+    color: #B8960C !important;
+    -webkit-text-fill-color: #B8960C !important;
+  }
+
+  /* Page breaks between sections */
+  .print-view .print-section {
+    page-break-after: always;
+  }
+  .print-view .print-section:last-child {
+    page-break-after: avoid;
+  }
+
+  /* Images should print */
+  .print-view img {
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
