@@ -10,7 +10,7 @@ import Reading from './Reading';
 import Practicums from './Practicums';
 import FAQ from './FAQ';
 
-const PASSWORD = 'storyfirst2026';
+const PASSWORD = 'Newfoundland12#';
 
 export default function PrintView() {
   const [authorized, setAuthorized] = useState(false);
