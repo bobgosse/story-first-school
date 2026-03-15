@@ -346,6 +346,14 @@ img {
     page-break-after: avoid;
   }
 
+  /* Force all content visible in print (ScrollReveal sets opacity:0) */
+  body.print-authorized * {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
   /* Make dark sections readable in print */
   body.print-authorized .section--navy,
   body.print-authorized .section--dark {
