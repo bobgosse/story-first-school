@@ -13,6 +13,7 @@ import WhatChanges from './pages/WhatChanges';
 import FAQ from './pages/FAQ';
 import HowWeGotHere from './pages/HowWeGotHere';
 import HowItWorks from './pages/HowItWorks';
+import PrintView from './pages/PrintView';
 
 function PageWrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -47,6 +48,7 @@ export default function App() {
             <Route path="/reading" element={<PageWrapper><Reading /></PageWrapper>} />
             <Route path="/practicums" element={<PageWrapper><Practicums /></PageWrapper>} />
             <Route path="/faq" element={<PageWrapper><FAQ /></PageWrapper>} />
+            <Route path="/print" element={<PrintView />} />
           </Routes>
         </AnimatePresence>
       </main>

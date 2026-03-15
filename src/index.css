@@ -306,3 +306,41 @@ img {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(8px); }
 }
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+/* Block printing on all pages EXCEPT /print */
+@media print {
+  body:not(.print-authorized) * {
+    display: none !important;
+  }
+  body:not(.print-authorized)::after {
+    display: block !important;
+    content: 'Printing is not available on this page.';
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--navy);
+  }
+
+  /* Print view styles */
+  body.print-authorized .no-print {
+    display: none !important;
+  }
+  body.print-authorized .print-only-header {
+    display: block !important;
+  }
+  body.print-authorized .print-section {
+    page-break-after: always;
+  }
+  body.print-authorized .print-section:last-child {
+    page-break-after: avoid;
+  }
+  body.print-authorized nav,
+  body.print-authorized footer {
+    display: none !important;
+  }
+}
