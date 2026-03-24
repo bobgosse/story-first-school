@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ScrollReveal } from '../components/ScrollReveal';
+import { DISCIPLINES } from '../data/disciplines';
 
 export default function Home() {
   return (
@@ -44,8 +45,91 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WHAT'S ACTUALLY HAPPENING */}
+      {/* START HERE — DISCIPLINE QUICK NAV */}
       <section className="section section--cream">
+        <div className="container--narrow" style={{ textAlign: 'center', marginBottom: 'var(--space-xl)' }}>
+          <ScrollReveal>
+            <p className="eyebrow">START HERE</p>
+            <h2>Go straight to your discipline.</h2>
+            <p style={{ color: 'var(--gray)', fontSize: '1rem', marginBottom: 0 }}>
+              Each discipline page explains exactly what Story-First asks of your craft — and why.
+            </p>
+          </ScrollReveal>
+        </div>
+        <div className="container">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+            gap: 'var(--space-lg)',
+          }}>
+            {DISCIPLINES.map((d, i) => (
+              <ScrollReveal key={d.slug} delay={i * 0.06}>
+                <Link to={`/disciplines/${d.slug}`} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                  <div style={{
+                    background: 'var(--white)',
+                    border: '1px solid var(--gray-lt)',
+                    borderLeft: `4px solid ${d.functionColor}`,
+                    padding: 'var(--space-lg)',
+                    transition: 'all 0.2s ease',
+                    height: '100%',
+                  }}
+                  onMouseEnter={e => {
+                    (e.currentTarget as HTMLDivElement).style.transform = 'translateY(-2px)';
+                    (e.currentTarget as HTMLDivElement).style.boxShadow = '0 4px 16px rgba(0,0,0,0.08)';
+                  }}
+                  onMouseLeave={e => {
+                    (e.currentTarget as HTMLDivElement).style.transform = 'translateY(0)';
+                    (e.currentTarget as HTMLDivElement).style.boxShadow = 'none';
+                  }}
+                  >
+                    <span className="fn-badge" style={{ background: d.functionColor, marginBottom: 'var(--space-sm)' }}>
+                      {d.primaryFunction}
+                    </span>
+                    <h3 style={{ marginTop: 'var(--space-sm)', marginBottom: 'var(--space-sm)', color: 'var(--navy)' }}>
+                      {d.name}
+                    </h3>
+                    <p style={{ fontSize: '0.95rem', marginBottom: 0 }}>
+                      {d.mission.length > 140 ? d.mission.slice(0, 140) + '...' : d.mission}
+                    </p>
+                    <span style={{
+                      display: 'inline-block',
+                      marginTop: 'var(--space-md)',
+                      fontSize: '0.85rem',
+                      fontWeight: 600,
+                      color: d.functionColor,
+                    }}>
+                      Explore &rarr;
+                    </span>
+                  </div>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: 'var(--space-xl)' }}>
+            <ScrollReveal>
+              <a
+                href="#whats-happening"
+                onClick={e => {
+                  e.preventDefault();
+                  document.getElementById('whats-happening')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                style={{
+                  fontWeight: 600,
+                  color: 'var(--gold)',
+                  textDecoration: 'none',
+                  fontSize: '1.0625rem',
+                  transition: 'color 0.2s ease',
+                }}
+              >
+                Or read the full argument &rarr;
+              </a>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* WHAT'S ACTUALLY HAPPENING */}
+      <section id="whats-happening" className="section section--cream">
         <div className="container--narrow">
           <ScrollReveal>
             <p className="eyebrow">THE LANDSCAPE</p>
