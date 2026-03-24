@@ -41,6 +41,25 @@ export default function WhatChanges() {
         </div>
       </section>
 
+      {/* WHERE WE ARE NOW */}
+      <section className="section section--off-white">
+        <div className="container--narrow">
+          <ScrollReveal>
+            <p className="eyebrow">WHERE WE ARE NOW</p>
+            <h2>This Work Is Already Beginning.</h2>
+            <p>
+              Story-First is not arriving to fix a school that has lost its way. It is arriving to formalize and scale what the faculty's instincts are already producing.
+            </p>
+            <p>
+              Cross-discipline collaboration is emerging organically among students and faculty &mdash; in capstone projects, in shared production work, in courses that have quietly begun asking story questions across disciplinary lines. These efforts exist because the people in this school know what good work requires, even before the curriculum names it.
+            </p>
+            <p>
+              Story-First gives those efforts a shared framework, a common language, and a structure that makes them permanent rather than occasional.
+            </p>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* SECTION 1 — THE ROOT CAUSE */}
       <section className="section section--cream">
         <div className="container--narrow">

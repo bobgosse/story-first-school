@@ -8,6 +8,7 @@ const ORIGINAL_DISCIPLINES = [
   'Cinematographers',
   'Editors',
   'Production Designers',
+  'Animators',
 ];
 
 const ORIGINAL_ENSEMBLE = [
@@ -16,6 +17,7 @@ const ORIGINAL_ENSEMBLE = [
   { label: 'Cinematographers', count: 8 },
   { label: 'Production Designers', count: 8 },
   { label: 'Editors', count: 8 },
+  { label: 'Animators', count: 8 },
   { label: 'Screenwriters', count: 8 },
 ];
 
@@ -89,7 +91,8 @@ export default function HowWeGotHere() {
               The UNCSA School of Filmmaking was founded on a model that worked.
               In its early years, each discipline admitted roughly eight students
               per cohort. Eight directors, eight producers, eight screenwriters,
-              eight cinematographers, eight editors, eight production designers.
+              eight cinematographers, eight editors, eight production designers,
+              eight animators.
               The math was clean and intentional: it mirrored the collaborative
               structure of a real film production. Every student had a meaningful
               role. Every production had the crew it needed.

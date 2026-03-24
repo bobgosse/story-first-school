@@ -31,8 +31,13 @@ const FAQ_DATA: FAQItem[] = [
   {
     question: "Does 'story-first' mean my discipline gets flattened into a service role?",
     answer: [
-      'No. The opposite. "Story-first" means every discipline gains a clearer, more defensible account of its own value. When a cinematography course can articulate exactly what its visual training does for story \u2014 not just "makes pretty images" but "builds the visual judgment to guide audience attention and create emotional states" \u2014 that discipline becomes harder to cut, harder to outsource, and harder to replace with a tool.',
-      'The framework does not flatten disciplines into a generic "storytelling" mush. It asks each discipline to make its specific contribution to story visible and accountable. That\u2019s an elevation, not a reduction.',
+      'Story-First doesn\u2019t flatten craft. It gives craft a standard of accountability.',
+      'The craft your discipline has built was always in service of story. Story-First makes that explicit \u2014 and in doing so, raises the bar rather than lowering it.',
+      'The clearest way to see the difference:',
+      'A cinematographer who believes story is someone else\u2019s job just shoots the list. The dysfunction on set is not their problem.',
+      'A cinematographer who understands why a scene exists \u2014 who knows what emotional truth they\u2019re there to protect \u2014 can intervene when the set is going wrong.',
+      'Story-First doesn\u2019t ask Cinematography to teach what Screenwriting teaches. It asks Cinematography to teach its craft in relation to what the story requires of it. That is a clarification, not a reduction.',
+      'That difference is not philosophical. It is what student films look and feel like.',
     ],
   },
   {
