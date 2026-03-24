@@ -35,7 +35,7 @@ export default function HowItWorks() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>
-            <p>Every decision a filmmaker makes — performance, camera movement, editing rhythm, sound design, lighting, production design — is an attempt to shape how an audience interprets what they are seeing and hearing. The purpose of the medium is not simply to produce images, but to communicate experience, emotion, and ideas through time-based audiovisual storytelling.</p>
+            <p>Every decision a filmmaker makes — performance, camera movement, editing rhythm, sound design, lighting, production design, the timing and movement of an animated character — is an attempt to shape how an audience interprets what they are seeing and hearing. The purpose of the medium is not simply to produce images, but to communicate experience, emotion, and ideas through time-based audiovisual storytelling.</p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.15}>
@@ -43,11 +43,11 @@ export default function HowItWorks() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.2}>
-            <p>Directors, producers, cinematographers, editors, designers, and sound artists are not merely completing technical tasks; they are interpreting and translating story into the language of their craft.</p>
+            <p>Directors, producers, cinematographers, editors, animators, designers, and sound artists are not merely completing technical tasks; they are interpreting and translating story into the language of their craft.</p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.25}>
-            <p>The result is a complex creative system in which meaning is constructed collectively through hundreds of decisions made under real-world constraints.</p>
+            <p>The result is a complex creative system in which meaning is constructed collectively through hundreds — in the case of animation, thousands — of decisions made under real-world constraints.</p>
           </ScrollReveal>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default function HowItWorks() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>
-            <p>Rather than treating these limitations as obstacles, the Story-First model recognizes them as essential learning conditions that prepare students for the realities of professional filmmaking.</p>
+            <p>Rather than treating these limitations as obstacles, the Story-First model recognizes them as essential learning conditions that prepare students for the realities of professional filmmaking — whether they are composing a live-action scene or constructing an animated world frame by frame.</p>
           </ScrollReveal>
 
           <ScrollReveal>
@@ -108,15 +108,15 @@ export default function HowItWorks() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.05}>
-            <p>Technical instruction alone cannot prepare students to work as filmmakers in the contemporary media environment. What students must develop is the ability to interpret narrative intention, collaborate across disciplines, make creative decisions under constraint, and translate story into audiovisual form. These are the skills that define professional filmmakers.</p>
+            <p>Technical instruction alone cannot prepare students to work as filmmakers in the contemporary media environment. What students must develop is the ability to interpret narrative intention, collaborate across disciplines, make creative decisions under constraint, and translate story into audiovisual form. These are the skills that define professional filmmakers — in every discipline, including Animation.</p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>
-            <p>Traditional production curricula often divide filmmaking into discrete stages — development, production, post-production — occurring in separate semesters or disconnected courses. While administratively convenient, this structure fragments the learning process. Students experience filmmaking as a sequence of assignments rather than as a continuous creative system.</p>
+            <p>Traditional production curricula often divide filmmaking into discrete stages — development, production, post-production — occurring in separate semesters or disconnected courses. While administratively convenient, this structure fragments the learning process. In animation, this problem is especially acute: the relationship between story intent and visual execution is total. Every frame that exists was chosen. There is no separation between the creative decision and its execution.</p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.15}>
-            <p>In professional filmmaking, however, these phases are inseparable. Each decision made early in the process influences the creative possibilities later on. Teaching filmmaking effectively therefore requires a structure that allows students to experience the full lifecycle of a project as an integrated process.</p>
+            <p>In professional filmmaking, these phases are inseparable. Teaching filmmaking effectively therefore requires a structure that allows students to experience the full lifecycle of a project as an integrated process.</p>
           </ScrollReveal>
         </div>
       </section>
@@ -133,17 +133,47 @@ export default function HowItWorks() {
             }}>
               <p className="eyebrow" style={{ marginBottom: 'var(--space-md)' }}>From Pedagogy to Practice</p>
 
-              <p style={{ marginBottom: 'var(--space-md)' }}>
-                The diagrams that follow are not simply schedules. They represent a pedagogical framework in which story, collaboration, and creative problem-solving remain at the center of the filmmaking experience.
-              </p>
+              {/* Opening pull quote */}
+              <blockquote style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: 'clamp(1.15rem, 2.5vw, 1.4rem)',
+                fontStyle: 'italic',
+                fontWeight: 500,
+                color: 'var(--navy)',
+                margin: '0 0 var(--space-lg) 0',
+                lineHeight: 1.5,
+              }}>
+                "The diagrams that follow are not simply schedules. They represent a pedagogical framework in which story, collaboration, and creative problem-solving remain at the center of the filmmaking experience."
+              </blockquote>
 
               <p style={{ marginBottom: 'var(--space-md)' }}>
                 Rather than separating development, production, and post-production into isolated academic exercises, the Story-First Production Pipeline allows projects to move through the full lifecycle of filmmaking in a continuous and coherent sequence. Students encounter storytelling, collaboration, and constraint not as abstract concepts, but as lived experiences that unfold across the duration of a project.
               </p>
 
-              <p style={{ marginBottom: 0 }}>
+              <p style={{ marginBottom: 'var(--space-md)' }}>
+                Within this system, story functions as the organizing principle for all disciplines. Every department — including Animation — participates in the same fundamental question: How do we translate narrative intention into a meaningful audiovisual experience for the audience?
+              </p>
+
+              <p style={{ marginBottom: 'var(--space-md)' }}>
+                Each discipline answers that question in the language of its craft. Directors explore performance and visual language. Cinematographers translate emotional tone into lighting and camera movement. Editors shape rhythm and narrative clarity. Production designers create environments that support the story world. Sound artists build emotional atmosphere through auditory storytelling. <strong>Animators author every element of the image deliberately — movement, timing, expression, light. Nothing in an animated film exists by accident. This makes animation the purest expression of the story-first principle: every frame is a story decision.</strong> Producers coordinate the practical conditions for all of these creative decisions to occur.
+              </p>
+
+              <p style={{ marginBottom: 'var(--space-lg)' }}>
                 Year 3 and Year 4 projects move through development, preparation, production, and post-production in a staggered pipeline that mirrors the rhythms of professional filmmaking while remaining aligned with the educational priorities of the conservatory.
               </p>
+
+              {/* Closing pull quote */}
+              <blockquote style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: 'clamp(1.15rem, 2.5vw, 1.4rem)',
+                fontStyle: 'italic',
+                fontWeight: 500,
+                color: 'var(--navy)',
+                margin: 0,
+                lineHeight: 1.5,
+              }}>
+                "Animation is not a special case within this framework. It is the case that makes the argument clearest. When every frame is a choice, story must come first. Always."
+              </blockquote>
             </div>
           </ScrollReveal>
         </div>

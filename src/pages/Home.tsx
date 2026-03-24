@@ -230,7 +230,7 @@ export default function Home() {
             <p className="eyebrow">THE PROPOSAL</p>
             <h2>A Curriculum Built Around What Can't Be Automated</h2>
             <p>
-              We propose reorganizing the School of Filmmaking's curriculum around a single, unifying principle: story comes first. Every discipline &mdash; directing, cinematography, editing, sound design, producing, production design, screenwriting &mdash; is understood as a way of serving the story. Technical training remains rigorous, but it is embedded within a framework that foregrounds creative judgment, ethical reasoning, and collaborative storytelling.
+              We propose reorganizing the School of Filmmaking's curriculum around a single, unifying principle: story comes first. Every discipline &mdash; directing, cinematography, animation, editing, sound design, producing, production design, screenwriting &mdash; is understood as a way of serving the story. Technical training remains rigorous, but it is embedded within a framework that foregrounds creative judgment, ethical reasoning, and collaborative storytelling.
             </p>
             <p>
               This is not a reduction of craft. It is an elevation of purpose. Students learn their tools more deeply because they understand what those tools are for. They graduate not as technicians waiting for instructions, but as artists capable of authorship &mdash; the one capacity that no algorithm can replicate.
