@@ -11,8 +11,8 @@ const FAQ_DATA: FAQItem[] = [
   {
     question: 'Is this just relabeling? Are we actually changing anything?',
     answer: [
-      'This is not a rebrand. The proposal asks every discipline to rebuild its syllabus around a single, explicit obligation: what does this course do for story? That is not a tagline. It is a structural requirement.',
-      'Every course in the school would be required to produce a story-function map \u2014 a clear statement of which of the six story functions it builds, how it builds them, and how students demonstrate that capacity. Courses that cannot articulate their story obligation will be redesigned or retired.',
+      'This is not a rebrand. The proposal asks every discipline to rebuild its syllabus around a single, explicit question: what does this course do for story? That is not a tagline. It is a structural commitment we are making together.',
+      'Every course in the school would produce a story-function map \u2014 a clear statement of which of the six story functions it builds, how it builds them, and how students demonstrate that capacity. Courses that cannot articulate their story obligation would be redesigned or reconsidered.',
       'This affects assignment design, critique language, assessment rubrics, and cross-disciplinary collaboration. It is not cosmetic.',
     ],
   },

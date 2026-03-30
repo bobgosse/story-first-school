@@ -163,9 +163,9 @@ export default function Voice() {
         <div className="container--narrow">
           <ScrollReveal>
             <p className="eyebrow eyebrow--light">THE STANDARD</p>
-            <h2>What Every Course Must Answer</h2>
+            <h2>What Every Course Answers</h2>
             <p>
-              Every syllabus rebuild must name voice explicitly &mdash; not as a mystical quality that cannot be taught, but as the disciplined practice of pursuing human truth in a story over the easier pursuit of audience approval.
+              Every syllabus rebuild names voice explicitly &mdash; not as a mystical quality that cannot be taught, but as the disciplined practice of pursuing human truth in a story over the easier pursuit of audience approval.
             </p>
             <p>
               Assessment criteria should reward risk and specificity. The signature assignment in every required course should ask: what is this student&rsquo;s specific story, and did the work pursue it honestly?

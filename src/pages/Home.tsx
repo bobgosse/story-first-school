@@ -281,6 +281,116 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CONNECTION PARAGRAPH */}
+      <section className="section section--off-white">
+        <div className="container--narrow">
+          <ScrollReveal>
+            <div style={{
+              borderLeft: '4px solid var(--gold)',
+              padding: 'var(--space-lg) var(--space-xl)',
+              background: 'rgba(28, 43, 74, 0.03)',
+              borderRadius: '0 8px 8px 0',
+            }}>
+              <p style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: 'clamp(1.15rem, 2.5vw, 1.35rem)',
+                fontStyle: 'italic',
+                lineHeight: 1.55,
+                color: 'var(--navy)',
+                margin: 0,
+              }}>
+                Notice what AI cannot generate at scale: the same human capacities the drift has eroded. Story judgment. Directorial voice. The kind of craft that knows what it's for. The economic case and the curriculum case point to the same place.
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* WHAT THE DRIFT HAS COST */}
+      <section className="section section--cream">
+        <div className="container--narrow">
+          <ScrollReveal>
+            <p className="eyebrow">THE COST</p>
+            <h2>What the Drift Has Cost</h2>
+            <p>
+              The model wasn't designed to stop building these things. They slipped away as unintended byproducts of real pressures meeting an unchanged structure. We can name them now.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.05}>
+            <div style={{
+              background: 'var(--white)',
+              border: '1px solid var(--gray-lt)',
+              borderLeft: '4px solid var(--gold)',
+              padding: 'var(--space-lg) var(--space-xl)',
+              marginBottom: 'var(--space-md)',
+            }}>
+              <h3 style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: '1.25rem',
+                color: 'var(--navy)',
+                marginBottom: 'var(--space-sm)',
+              }}>
+                Story Intuition
+              </h3>
+              <p style={{ marginBottom: 0 }}>
+                The slow, friction-rich development loop &mdash; where a filmmaker learns to feel when something is working and why &mdash; got squeezed out first. Intuition isn't taught in a rush. It forms through repeated cycles of making, failing, and returning to the work.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.1}>
+            <div style={{
+              background: 'var(--white)',
+              border: '1px solid var(--gray-lt)',
+              borderLeft: '4px solid var(--gold)',
+              padding: 'var(--space-lg) var(--space-xl)',
+              marginBottom: 'var(--space-md)',
+            }}>
+              <h3 style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: '1.25rem',
+                color: 'var(--navy)',
+                marginBottom: 'var(--space-sm)',
+              }}>
+                Directorial Voice
+              </h3>
+              <p style={{ marginBottom: 0 }}>
+                When the calendar is driven by production logistics, the space for genuine discovery disappears. Finding your story &mdash; following the strange, unresolved thing &mdash; needs room to form before the camera rolls.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.15}>
+            <div style={{
+              background: 'var(--white)',
+              border: '1px solid var(--gray-lt)',
+              borderLeft: '4px solid var(--gold)',
+              padding: 'var(--space-lg) var(--space-xl)',
+              marginBottom: 'var(--space-lg)',
+            }}>
+              <h3 style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: '1.25rem',
+                color: 'var(--navy)',
+                marginBottom: 'var(--space-sm)',
+              }}>
+                Collaborative Craft
+              </h3>
+              <p style={{ marginBottom: 0 }}>
+                Sets function best when everyone understands why the story exists. When that shared intention is never built in the classroom, what fills the vacuum on set is managed chaos. That's a curriculum gap &mdash; and we can close it.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.2}>
+            <div className="pull-quote">
+              Story-first names what drifted &mdash; and designs it back in on purpose.
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* COMBINED THESIS */}
       <section className="section section--dark" style={{ paddingTop: 'var(--space-4xl)', paddingBottom: 'var(--space-4xl)', textAlign: 'center' }}>
         <div className="container--narrow">
@@ -319,7 +429,17 @@ export default function Home() {
             <p>
               This is not a reduction of craft. It is an elevation of purpose. Students learn their tools more deeply because they understand what those tools are for. They graduate not as technicians waiting for instructions, but as artists capable of authorship &mdash; the one capacity that no algorithm can replicate.
             </p>
-            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2.5rem' }}>
+            <p style={{
+              fontFamily: 'var(--font-display)',
+              fontStyle: 'italic',
+              fontSize: '1.15rem',
+              color: 'var(--navy)',
+              marginTop: 'var(--space-xl)',
+              marginBottom: 'var(--space-lg)',
+            }}>
+              This is an invitation to claim the work we've always been doing &mdash; and do it on purpose.
+            </p>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
               <Link to="/framework" className="btn btn--primary">
                 Explore the Framework &rarr;
               </Link>

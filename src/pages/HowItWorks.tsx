@@ -67,7 +67,7 @@ export default function HowItWorks() {
               margin: '0',
               lineHeight: 1.4,
             }}>
-              "We are not a trade school. We are an arts conservatory — whose purpose is to cultivate artists capable of using the medium of film to tell meaningful stories."
+              We are not a trade school. We are an arts conservatory — whose purpose is to cultivate artists capable of using the medium of film to tell meaningful stories.
             </blockquote>
           </ScrollReveal>
         </div>
@@ -143,7 +143,7 @@ export default function HowItWorks() {
                 margin: '0 0 var(--space-lg) 0',
                 lineHeight: 1.5,
               }}>
-                "The diagrams that follow are not simply schedules. They represent a pedagogical framework in which story, collaboration, and creative problem-solving remain at the center of the filmmaking experience."
+                The diagrams that follow are not simply schedules. They represent a pedagogical framework in which story, collaboration, and creative problem-solving remain at the center of the filmmaking experience.
               </blockquote>
 
               <p style={{ marginBottom: 'var(--space-md)' }}>
@@ -172,7 +172,7 @@ export default function HowItWorks() {
                 margin: 0,
                 lineHeight: 1.5,
               }}>
-                "Animation is not a special case within this framework. It is the case that makes the argument clearest. When every frame is a choice, story must come first. Always."
+                Animation is not a special case within this framework. It is the case that makes the argument clearest. When every frame is a choice, story must come first. Always.
               </blockquote>
             </div>
           </ScrollReveal>

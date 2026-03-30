@@ -70,7 +70,7 @@ export default function DisciplinePage() {
       <section className="section section--off-white">
         <div className="container--narrow">
           <ScrollReveal>
-            <p className="eyebrow">WHAT THE REBUILD ASKS OF YOU</p>
+            <p className="eyebrow">WHAT THE REBUILD ASKS</p>
             <h2>The Commitment</h2>
             <p style={{ fontSize: '1.0625rem', lineHeight: 1.8 }}>{d.rebuildAsks}</p>
           </ScrollReveal>

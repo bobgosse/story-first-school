@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import { ScrollReveal } from '../components/ScrollReveal';
 
 const REQUIREMENTS = [
-  'Every required course must declare its story function',
-  'Every required course must rewrite its learning outcomes as story outcomes',
-  'Every required course must demonstrate in its assessments that it teaches students to serve the story rather than the discipline',
-  'Every program must produce a Stop / Start / Continue list: what is retired, what is introduced, what is preserved and why',
+  'Every required course declares its story function',
+  'Every required course rewrites its learning outcomes as story outcomes',
+  'Every required course demonstrates in its assessments that it teaches students to serve the story rather than the discipline',
+  'Every program produces a Stop / Start / Continue list: what is retired, what is introduced, what is preserved and why',
 ];
 
 const DELIVERABLES = [
@@ -170,7 +170,7 @@ export default function WhatChanges() {
                   What Stops
                 </h3>
                 <p style={{ color: 'rgba(255,255,255,0.75)', marginBottom: 0 }}>
-                  Courses that teach craft as an end in itself &mdash; divorced from story function and audience effect &mdash; must be revised or retired. This includes technically rigorous courses that produce students who are highly proficient within their discipline but cannot collaborate across it. Proficiency without story accountability is not the goal of this school.
+                  Courses that teach craft as an end in itself &mdash; divorced from story function and audience effect &mdash; are revised or reconsidered. This includes technically rigorous courses that produce students who are highly proficient within their discipline but cannot collaborate across it. Proficiency without story accountability is not what we are here to build.
                 </p>
               </div>
 
@@ -280,6 +280,15 @@ export default function WhatChanges() {
             <hr className="gold-rule" />
             <p style={{ fontWeight: 500, color: 'var(--navy)' }}>
               The standard is not compliance. It is change that shows up in the work.
+            </p>
+            <p style={{
+              fontFamily: 'var(--font-display)',
+              fontStyle: 'italic',
+              fontSize: '1.15rem',
+              color: 'var(--navy)',
+              marginTop: 'var(--space-lg)',
+            }}>
+              This is an invitation to claim the work we've always been doing &mdash; and do it on purpose.
             </p>
           </ScrollReveal>
 
