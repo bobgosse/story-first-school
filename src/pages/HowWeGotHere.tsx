@@ -73,9 +73,9 @@ export default function HowWeGotHere() {
                 opacity: 0.9,
               }}
             >
-              This is not a history of failure. It is the specific institutional
-              context that makes the story-first reimagining necessary &mdash;
-              and inevitable.
+              This is not a story of failure. It is the specific institutional
+              context that makes the story-first design upgrade necessary &mdash;
+              and timely.
             </p>
           </ScrollReveal>
         </div>
@@ -386,16 +386,16 @@ export default function HowWeGotHere() {
               anxieties.
             </p>
             <p>
-              The dysfunction and frustration on those sets is not a personality
-              problem. It is a curriculum problem. There is no shared story
-              intention because the curriculum never built one.
+              The friction on those sets is not a personality problem. It is
+              a structural one. The shared story intention was never explicitly
+              built into the curriculum &mdash; and now it needs to be.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>
             <div className="pull-quote">
-              There is no shared story intention because the curriculum never
-              built one.
+              The shared story intention was never explicitly built into the
+              curriculum &mdash; and now it needs to be.
             </div>
           </ScrollReveal>
         </div>

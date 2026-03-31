@@ -64,19 +64,19 @@ export default function WhatChanges() {
       <section className="section section--cream">
         <div className="container--narrow">
           <ScrollReveal>
-            <p className="eyebrow">THE ROOT CAUSE</p>
-            <h2>A Curriculum Problem, Not a Personality Problem</h2>
+            <p className="eyebrow">THE CONTEXT</p>
+            <h2>A Design Problem, Not a Blame Problem</h2>
             <p>
-              The school has lost the thread of its storytelling purpose. What has filled that vacuum is disciplinary pride &mdash; each program valuing its own craft above the shared work. That is not a criticism of individuals. It is what happens when there is no common language for what the collaboration is for.
+              The drift happened because real pressures met an unchanged structure &mdash; and no one designed it that way. The conditions have changed: scale is different, technology is different, the industry is different. We now need a more explicit shared framework. That is a design upgrade, not a diagnosis of blame.
             </p>
             <p>
-              Students feel it most acutely on practicum films. They arrive having been trained rigorously within their disciplines &mdash; cinematography students who can light a set, directing students who can run a shot list, producing students who can build a budget. But they have never been asked to agree on what a story is, what it is supposed to do to an audience, or what they are all there to protect.
+              Students feel the gap most acutely on practicum films. They arrive having been trained rigorously within their disciplines &mdash; cinematography students who can light a set, directing students who can run a shot list, producing students who can build a budget. But they have never been asked to agree on what a story is, what it is supposed to do to an audience, or what they are all there to protect.
             </p>
             <p>
-              The dysfunction and frustration on those sets is not a personality problem. It is a curriculum problem. There is no shared story intention because the curriculum never built one.
+              The friction on those sets is not a personality problem. It is a structural one. The shared story intention was never explicitly built into the curriculum &mdash; and now it needs to be.
             </p>
             <div className="pull-quote">
-              There is no shared story intention because the curriculum never built one.
+              The shared story intention was never explicitly built into the curriculum &mdash; and now it needs to be.
             </div>
           </ScrollReveal>
         </div>
@@ -301,6 +301,111 @@ export default function WhatChanges() {
                 Explore the Framework &rarr;
               </Link>
             </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* HOW WE'LL KNOW IT WORKED */}
+      <section className="section section--off-white">
+        <div className="container--narrow">
+          <ScrollReveal>
+            <p className="eyebrow">ACCOUNTABILITY</p>
+            <h2>How We'll Know It Worked</h2>
+            <p>
+              Story-first is only as good as what it produces. These are the indicators we will track, organized by timeframe so that progress is visible at each stage.
+            </p>
+          </ScrollReveal>
+        </div>
+        <div className="container">
+          <ScrollReveal delay={0.1}>
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(3, 1fr)',
+              gap: 'var(--space-lg)',
+              marginTop: 'var(--space-xl)',
+            }} className="metrics-grid">
+              {/* Year 1 */}
+              <div style={{
+                background: 'var(--white)',
+                border: '1px solid var(--gray-lt)',
+                borderTop: '3px solid var(--gold)',
+                padding: 'var(--space-xl)',
+              }}>
+                <h3 style={{
+                  fontFamily: 'var(--font-display)',
+                  fontSize: '1.25rem',
+                  fontWeight: 500,
+                  color: 'var(--navy)',
+                  marginBottom: 'var(--space-md)',
+                }}>
+                  Year 1 &mdash; Leading Indicators
+                </h3>
+                <ul style={{ paddingLeft: '1.25rem', margin: 0 }}>
+                  <li style={{ marginBottom: 'var(--space-sm)', fontSize: '0.95rem', lineHeight: 1.6 }}>All required courses mapped to their story function</li>
+                  <li style={{ marginBottom: 'var(--space-sm)', fontSize: '0.95rem', lineHeight: 1.6 }}>Master syllabi standardized with voice and critique obligations named</li>
+                  <li style={{ marginBottom: 0, fontSize: '0.95rem', lineHeight: 1.6 }}>Students can articulate how their discipline serves story</li>
+                </ul>
+              </div>
+
+              {/* Years 1–2 */}
+              <div style={{
+                background: 'var(--white)',
+                border: '1px solid var(--gray-lt)',
+                borderTop: '3px solid var(--gold)',
+                padding: 'var(--space-xl)',
+              }}>
+                <h3 style={{
+                  fontFamily: 'var(--font-display)',
+                  fontSize: '1.25rem',
+                  fontWeight: 500,
+                  color: 'var(--navy)',
+                  marginBottom: 'var(--space-md)',
+                }}>
+                  Years 1&ndash;2 &mdash; Student Outcomes
+                </h3>
+                <ul style={{ paddingLeft: '1.25rem', margin: 0 }}>
+                  <li style={{ marginBottom: 'var(--space-sm)', fontSize: '0.95rem', lineHeight: 1.6 }}>More balanced discipline selection at the end of Year 2</li>
+                  <li style={{ marginBottom: 'var(--space-sm)', fontSize: '0.95rem', lineHeight: 1.6 }}>Reduced burnout as ensemble balance improves</li>
+                  <li style={{ marginBottom: 0, fontSize: '0.95rem', lineHeight: 1.6 }}>Stronger critique and revision skills visible in practicum work</li>
+                </ul>
+              </div>
+
+              {/* Years 3–4 */}
+              <div style={{
+                background: 'var(--white)',
+                border: '1px solid var(--gray-lt)',
+                borderTop: '3px solid var(--gold)',
+                padding: 'var(--space-xl)',
+              }}>
+                <h3 style={{
+                  fontFamily: 'var(--font-display)',
+                  fontSize: '1.25rem',
+                  fontWeight: 500,
+                  color: 'var(--navy)',
+                  marginBottom: 'var(--space-md)',
+                }}>
+                  Years 3&ndash;4 &mdash; Production Quality
+                </h3>
+                <ul style={{ paddingLeft: '1.25rem', margin: 0 }}>
+                  <li style={{ marginBottom: 'var(--space-sm)', fontSize: '0.95rem', lineHeight: 1.6 }}>Better collaboration and story coherence in practicum films (rubric-based review)</li>
+                  <li style={{ marginBottom: 'var(--space-sm)', fontSize: '0.95rem', lineHeight: 1.6 }}>Clearer festival and delivery readiness at graduation</li>
+                  <li style={{ marginBottom: 0, fontSize: '0.95rem', lineHeight: 1.6 }}>Stronger employer and alumni feedback on graduates' adaptability and judgment</li>
+                </ul>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          <style>{`
+            @media (max-width: 768px) {
+              .metrics-grid { grid-template-columns: 1fr !important; }
+            }
+          `}</style>
+        </div>
+        <div className="container--narrow" style={{ marginTop: 'var(--space-xl)' }}>
+          <ScrollReveal delay={0.15}>
+            <p style={{ fontStyle: 'italic', color: 'var(--gray)' }}>
+              Without these benchmarks, the proposal is elegant but untestable. These metrics make it possible to report progress honestly &mdash; and to adjust where the evidence points.
+            </p>
           </ScrollReveal>
         </div>
       </section>

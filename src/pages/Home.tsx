@@ -410,8 +410,14 @@ export default function Home() {
             <p style={{ maxWidth: '38em', margin: '0 auto 1.5rem' }}>
               This is not a philosophical hope. It is a strategic claim &mdash; one supported by economic theory, labor-market data, and the lived experience of working artists. If it is true, then a school organized around storytelling judgment is not romantic or nostalgic. It is the most practical thing we could build.
             </p>
-            <p style={{ maxWidth: '38em', margin: '0 auto' }}>
+            <p style={{ maxWidth: '38em', margin: '0 auto 1.5rem' }}>
               The pages that follow lay out a framework for doing exactly that &mdash; reorganizing the School of Filmmaking around a shared commitment to story, built on the disciplines that cannot be automated, and designed to produce graduates who can lead in the world as it actually is.
+            </p>
+            <p style={{ maxWidth: '38em', margin: '0 auto 1.5rem' }}>
+              AI should be treated as a tool environment, not a threat. The school's job is to produce filmmakers who can use emerging tools without surrendering authorship, ethics, or taste. That is harder to learn than any specific tool &mdash; and it is precisely the kind of education that becomes more valuable as production costs fall.
+            </p>
+            <p style={{ maxWidth: '38em', margin: '0 auto' }}>
+              More money alone will not solve what the school is facing &mdash; but structure and resources must be aligned. Story-first provides the structural framework. The resource conversation follows from it, not the other way around.
             </p>
           </ScrollReveal>
         </div>
