@@ -3,7 +3,7 @@ import { ScrollReveal } from '../components/ScrollReveal';
 import { STORY_FUNCTIONS } from '../data/disciplines';
 
 const YEAR_STEPS = [
-  { year: 1, label: 'Year 1', text: 'Individual films. iPhone/DSLR. Pure ideation. Find your story.' },
+  { year: 1, label: 'Year 1', text: 'Individual films. iPhone 17 Pro. Pure ideation. Find your story.' },
   { year: 2, label: 'Year 2', text: 'First collaborations. Small teams. Story under the pressure of other people.' },
   { year: 3, label: 'Year 3', text: 'Professional scale. Story surviving contact with real production.' },
   { year: 4, label: 'Year 4', text: 'Full scale. Something worth saying, delivered with professional judgment.' },
@@ -74,7 +74,7 @@ export default function Voice() {
             <p className="eyebrow">THE SEQUENCE</p>
             <h2>Finding Your Story Before You Scale It</h2>
             <p>
-              The practicum arc is designed to build this sequence deliberately. Year 1 is individual, personal, and minimally equipped &mdash; as close to pure ideation and audacity as a structured curriculum can get. Students work alone, with available light and a phone or DSLR, making films from their own experience and imagination before they have the resources to paper over a weak idea. There is nowhere to hide. That is the point.
+              The practicum arc is designed to build this sequence deliberately. Year 1 is individual, personal, and minimally equipped &mdash; as close to pure ideation and audacity as a structured curriculum can get. Students work alone, with available light and an iPhone, making films from their own experience and imagination before they have the resources to paper over a weak idea. There is nowhere to hide. That is the point.
             </p>
             <p>
               The audience machinery &mdash; distribution, positioning, delivery &mdash; builds as the production scale builds. By Year 4, students need both: something worth saying and the professional judgment to deliver it.
