@@ -167,7 +167,9 @@ export default function Framework() {
                         {d.name}
                       </td>
                       {STORY_FUNCTIONS.map(fn => {
-                        const isPrimary = d.primaryFunction === fn.name ||
+                        const isHorizontal = d.slug === 'producing';
+                        const isPrimary = isHorizontal ||
+                          d.primaryFunction === fn.name ||
                           d.primaryFunction.includes(fn.name);
                         const isSecondary = !isPrimary && (
                           d.intersections.toLowerCase().includes(fn.id) ||
