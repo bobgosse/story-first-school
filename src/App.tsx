@@ -13,6 +13,7 @@ import WhatChanges from './pages/WhatChanges';
 import FAQ from './pages/FAQ';
 import HowWeGotHere from './pages/HowWeGotHere';
 import HowItWorks from './pages/HowItWorks';
+import WhatIsAStory from './pages/WhatIsAStory';
 import PrintView from './pages/PrintView';
 
 function PageWrapper({ children }: { children: React.ReactNode }) {
@@ -38,6 +39,7 @@ export default function App() {
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
+            <Route path="/what-is-a-story" element={<PageWrapper><WhatIsAStory /></PageWrapper>} />
             <Route path="/how-we-got-here" element={<PageWrapper><HowWeGotHere /></PageWrapper>} />
             <Route path="/how-it-works" element={<PageWrapper><HowItWorks /></PageWrapper>} />
             <Route path="/framework" element={<PageWrapper><Framework /></PageWrapper>} />

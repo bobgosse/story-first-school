@@ -18,6 +18,7 @@ export function Nav() {
   }, [location.pathname]);
 
   const links = [
+    { to: '/what-is-a-story', label: 'What Is a Story?' },
     { to: '/', label: 'The Argument' },
     { to: '/how-we-got-here', label: 'How We Got Here' },
     { to: '/how-it-works', label: 'How It Works' },
